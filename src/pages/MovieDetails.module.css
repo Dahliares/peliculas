@@ -1,0 +1,32 @@
+.detailsContainer{
+
+    color: aliceblue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+        
+
+}
+
+.col {
+    max-width: 400px;
+    margin: 15px;
+    height: auto;
+    height: 80%;
+}
+
+.movieImage{
+
+    border-radius: 15px;
+
+}
+
+.movieDetails{
+    font-size: 1.5rem;
+}
+
+.first{
+    margin-top: 0;
+}
+

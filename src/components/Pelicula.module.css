@@ -1,0 +1,30 @@
+.pelicula{
+
+    list-style: none;
+    font-size: 1.5rem;
+    color: antiquewhite;
+    text-align: center;
+
+}
+
+.pelicula:hover{
+    opacity: 0.8;
+}
+
+.movieImage{
+
+    border-radius: 10px;
+    background-color: azure;
+}
+
+
+@media (max-width: 560px){
+
+    .movieImage{
+        
+        width: 90%;
+        height: auto;
+    
+    }
+
+}
